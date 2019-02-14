@@ -96,7 +96,7 @@ def 사원증_이미지_응답(request):
     # 파일을 복사한 후에, 경로 확인 후에 적용해주세요.
     # ttf_path = 'assets/fonts/AppleGothic.ttf'
 
-    text = request.GET.get('name', '익명')
+    text = request.GET.get('name', '김영환')
     # text = '이진석 (사번: 201900001)'
 
     image_url = 'http://www.flowermeaning.com/flower-pics/Calla-Lily-Meaning.jpg'
